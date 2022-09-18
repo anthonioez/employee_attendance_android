@@ -1,0 +1,22 @@
+<sql>
+    <statement>
+        CREATE TABLE IF NOT EXISTS attendance
+        (
+        _id 			INTEGER PRIMARY KEY AUTOINCREMENT,
+        name            TEXT,
+        user            TEXT,
+        type            TEXT,
+        addr            TEXT,
+        start           TEXT,
+        stamp           INTEGER
+        )
+    </statement>
+
+    <statement>
+        ALTER TABLE attendance ADD COLUMN user TEXT;
+    </statement>
+
+    <statement>
+        ALTER TABLE attendance ADD COLUMN start TEXT;
+    </statement>
+</sql>

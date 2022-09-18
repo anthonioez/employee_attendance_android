@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_reload" android:title="Reload" app:showAsAction="never"/>
+    <item android:id="@+id/action_upload" android:title="Upload" app:showAsAction="never"/>
+    <item android:id="@+id/action_clear" android:title="Delete All" app:showAsAction="never"/>
+</menu>
